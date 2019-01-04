@@ -90,4 +90,4 @@ mingw32-make.exe install
 
 ……エラーが出て止まりましたね。ここでQt Creatorの出番です。Qt Creatorを立ち上げ、`ファイル`→`ファイル/プロジェクトを開く`で`C:/cantata/src/windows/CMakeList.txt`を開きます。そうすると`Configure Project`画面になるので`Desktop Qt 5.11.2 MinGW 32bit`にだけチェックを入れます。そして画面を下にスクロールさせ、`Configure Project`ボタンを押下します。そしてQt Creatorの左側にある`プロジェクト`ボタンを押下し、`Build & Run`のところの`Build`が選ばれた状態になり、画面の右側にいろいろと書かれている画面が出たと思います。その中の`CMAKE_CODEBLOCKS_MAKE_ARGUMENTS`に`../src -DCMAKE_BUILD_TYPE=Release -DENABLE_TAGLIB=OFF -DTAGLIB_FOUND=1 -DTAGLIB_INCLUDES=c:/dev/taglib/include -DTAGLIB_LIBRARIES=c:/dev/taglib/lib/libtag.dll.a -DTAGLIB_MP4_FOUND=1 -DTAGLIB_ASF_FOUND=1 -DTAGLIB_CAN_SAVE_ID3VER=1 -DZLIB_INCLUDE_DIR=c:/dev/zlib/include -DZLIB_LIBRARY=c:/dev/zlib/lib/libz.dll.a -DCMAKE_INSTALL_PREFIX=c:/cantata/install -DCANTATA_WINDOWS_INSTALLER_DEST=c:/cantata -DCANTATA_SSL_LIBS=c:/dev/ssl/libeay32.dll;c:/dev/ssl/ssleay32.dll`を入れます。で、ビルドステップと書いてある上にある`設定の変更を適用`ボタンを押下します。  
 Qt Creatorの`ファイル`→`すべて保存`をします。  
-Cmake-gui.exeを立ち上げ、
+Cmake-gui.exeを立ち上げ、`Configure`ボタンを押下し、設定をし直して何度か`Configure`ボタンを押下し、エラーが出ないようにして、から`Generate`ボタンを押下してください。
