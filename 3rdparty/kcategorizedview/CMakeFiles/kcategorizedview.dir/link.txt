@@ -1,0 +1,2 @@
+C:\dev\Qt\Tools\mingw530_32\bin\ar.exe qc libkcategorizedview.a  CMakeFiles/kcategorizedview.dir/kcategorizedsortfilterproxymodel.cpp.obj CMakeFiles/kcategorizedview.dir/kcategorizedview.cpp.obj CMakeFiles/kcategorizedview.dir/kcategorydrawer.cpp.obj CMakeFiles/kcategorizedview.dir/kcategorizedview_autogen/mocs_compilation.cpp.obj
+C:\dev\Qt\Tools\mingw530_32\bin\ranlib.exe libkcategorizedview.a

@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+<file alias="media-next">icons/media-next.svg</file>
+<file alias="media-pause">icons/media-pause.svg</file>
+<file alias="media-play">icons/media-play.svg</file>
+<file alias="media-play-rtl">icons/media-play-rtl.svg</file>
+<file alias="media-prev">icons/media-prev.svg</file>
+<file alias="media-stop">icons/media-stop.svg</file>
+</qresource>
+</RCC>

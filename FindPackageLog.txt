@@ -1,0 +1,24 @@
+The following OPTIONAL packages have been found:
+
+ * Taglib
+
+-- The following REQUIRED packages have been found:
+
+ * Qt5Core (required version >= 5.11.2)
+ * Qt5Gui (required version >= 5.11.2)
+ * Qt5Widgets
+ * Qt5Xml
+ * Qt5Network
+ * Qt5Concurrent
+ * Qt5Svg
+ * Qt5Sql
+ * Qt5Multimedia, "MPD HTTP stream playback.", <http://qtproject.org>
+   PURPOSE""""
+ * ZLIB
+ * Qt5WinExtras
+
+-- The following OPTIONAL packages have not been found:
+
+ * FFMPEG
+ * PkgConfig
+ * MPG123

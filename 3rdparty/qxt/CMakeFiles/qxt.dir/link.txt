@@ -1,0 +1,2 @@
+C:\dev\Qt\Tools\mingw530_32\bin\ar.exe qc libqxt.a  CMakeFiles/qxt.dir/qxtglobal.cpp.obj CMakeFiles/qxt.dir/qxtglobalshortcut.cpp.obj CMakeFiles/qxt.dir/qxtglobalshortcut_win.cpp.obj CMakeFiles/qxt.dir/qxt_autogen/mocs_compilation.cpp.obj
+C:\dev\Qt\Tools\mingw530_32\bin\ranlib.exe libqxt.a

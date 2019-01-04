@@ -1,0 +1,91 @@
+Build & Installation
+====================
+
+1. mkdir build
+2. cd build
+3. cmake ..
+4. make
+5. sudo make install
+
+
+Mac/Windows
+-----------
+See README
+
+
+CMake Options
+=============
+
+The following options may be passed to CMake:
+
+    -DCMAKE_INSTALL_PREFIX=/usr
+        Specify install location prefix.
+
+    -DCMAKE_BUILD_TYPE=Release|Debug
+        Specify which type of build. Debug builds will be *much* larger, as
+        they will contain extra debugging information.
+
+    -DENABLE_HTTP_STREAM_PLAYBACK=ON
+        Enable support for playing back MPD HTTP streams via QtMultiMedia or
+        lib VLC (see below)
+        Default: ON
+
+    -DENABLE_LIBVLC=ON
+        Enable usage of libVLC for MPD HTTP stream playback. Bug report 493
+        (https://github.com/CDrummond/cantata/issues/493) contains
+        more information.
+        Default: OFF
+
+    -DENABLE_HTTP_SERVER=ON
+        Enable usage of internal HTTP server for non-MPD file playback.
+        Default: ON
+
+    -DENABLE_PROXY_CONFIG=OFF
+        Enable support for proxy settings in config dialog. If disabled,
+        system proxy settings are used.
+        Default: ON
+
+
+    Linux specific:
+
+    -DENABLE_DEVICES_SUPPORT=ON
+        Support external devices (UMS, MTP, AudioCD)
+        Default: ON
+
+    -DENABLE_REMOTE_DEVICES=OFF
+        Support remote devices (accessed via sshfs, or samba). This requires
+        ENABLE_DEVICES_SUPPORT to also be enabled.
+        Default: ON
+
+    -DENABLE_UDISKS2=ON
+        Build UDisks2 backend for solid-lite.
+        Default: ON
+
+    -DINSTALL_UBUNTU_ICONS=ON
+        Install Yaru icons for Ubuntu.
+        Default: OFF
+
+    -DCANTATA_HELPERS_LIB_DIR=<subdir>
+        For 64 bit builds, this may be used to control the lib sub-dir
+        where Cantata helper apps will be placed. e.g. setting this to lib64
+        will cause the helper apps (cantata-tags, cantata-replaygain) to be
+        install into /usr/lib64/cantata instead of /usr/lib/cantata
+        Default: <empty (which means /usr/lib will be used) >
+
+    -DENABLE_SIMPLE_MPD_SUPPORT=OFF
+        Enable support for basic, Cantata controlled, MPD instance.
+        Default: ON
+
+    -DENABLE_AVAHI=ON
+        Enable avahi support (automatic mpd discovery)
+        Default: ON
+
+    Windows specific:
+
+    -DCANTATA_WINDOWS_INSTALLER_DEST=<folder>
+        Path where Inno Setpup Compiler should place the catata setup exe.
+        Default: z:\
+        
+    -DCANTATA_SSL_LIBS=<path>/libeay32.dll;<path>/ssleay32.dll
+        SSL libraries
+        Default: <empty>

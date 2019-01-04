@@ -1,0 +1,19 @@
+Performing C++ SOURCE FILE Test TAGLIB_CAN_SAVE_ID3VER failed with the following output:
+Change Dir: C:/cantata/srcming/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/dev/Qt/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_00496/fast"
+C:/dev/Qt/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_00496.dir\build.make CMakeFiles/cmTC_00496.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/cantata/srcming/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00496.dir/src.cxx.obj
+C:\dev\Qt\Tools\mingw530_32\bin\g++.exe   @CMakeFiles/cmTC_00496.dir/includes_CXX.rsp -DTAGLIB_CAN_SAVE_ID3VER   -o CMakeFiles\cmTC_00496.dir\src.cxx.obj -c C:\cantata\srcming\CMakeFiles\CMakeTmp\src.cxx
+C:\cantata\srcming\CMakeFiles\CMakeTmp\src.cxx:1:29: fatal error: taglib/mpegfile.h: No such file or directory
+compilation terminated.
+CMakeFiles\cmTC_00496.dir\build.make:65: recipe for target 'CMakeFiles/cmTC_00496.dir/src.cxx.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_00496.dir/src.cxx.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/cantata/srcming/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_00496/fast' failed
+mingw32-make.exe: *** [cmTC_00496/fast] Error 2
+
+Source file was:
+#include <taglib/mpegfile.h>
+                            int main() { TagLib::MPEG::File *file; file->save(1, true, 3);  return 0; }

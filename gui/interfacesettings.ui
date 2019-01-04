@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InterfaceSettings</class>
+ <widget class="QWidget" name="InterfaceSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="movable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="sidebarTab">
+      <attribute name="title">
+       <string>Sidebar</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="sidebarLayout">
+       <item>
+        <widget class="QGroupBox" name="viewsGroup">
+         <property name="title">
+          <string>Views</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Use the checkboxes below to configure which views will appear in the sidebar.</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="views"/>
+          </item>
+          <item>
+           <widget class="NoteLabel" name="sbPlayQueueLabel">
+            <property name="text">
+             <string>If 'Play Queue' is not checked above, then it will appear to the side of the other views. If 'Info' is not checked above, then a button will be added to the toolbar allowing you to access song information.</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="optionsGroup">
+         <property name="title">
+          <string>Options</string>
+         </property>
+         <layout class="QHBoxLayout" name="sbLayout">
+          <item>
+           <layout class="QFormLayout" name="styleLayout">
+            <property name="fieldGrowthPolicy">
+             <enum>QFormLayout::ExpandingFieldsGrow</enum>
+            </property>
+            <item row="0" column="0">
+             <widget class="BuddyLabel" name="sbStyleLabel">
+              <property name="text">
+               <string>Style:</string>
+              </property>
+              <property name="buddy">
+               <cstring>sbStyle</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QComboBox" name="sbStyle"/>
+            </item>
+            <item row="1" column="0">
+             <widget class="BuddyLabel" name="sbPositionLabel">
+              <property name="text">
+               <string>Position:</string>
+              </property>
+              <property name="buddy">
+               <cstring>sbPosition</cstring>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QComboBox" name="sbPosition"/>
+            </item>
+            <item row="2" column="0" colspan="2">
+             <widget class="QCheckBox" name="sbIconsOnly">
+              <property name="text">
+               <string>Only show icons, no text</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0" colspan="2">
+             <widget class="QCheckBox" name="sbAutoHide">
+              <property name="text">
+               <string>Auto-hide</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0" colspan="2">
+             <widget class="QCheckBox" name="responsiveSidebar">
+              <property name="text">
+               <string>Automatically change style when insufficient space</string>
+              </property>
+              <property name="toolTip">
+               <string>&lt;p&gt;Change to a small top bar (containing all views) when the window is narrow.&lt;/p&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Play Queue</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout_5">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::ExpandingFieldsGrow</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="BuddyLabel" name="playQueueViewLabel">
+         <property name="text">
+          <string>Style:</string>
+         </property>
+         <property name="buddy">
+          <cstring>playQueueView</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="playQueueView"/>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="playQueueStartClosed">
+         <property name="text">
+          <string>Initially collapse albums</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QCheckBox" name="playQueueAutoExpand">
+         <property name="text">
+          <string>Automatically expand current album</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="playQueueScroll">
+         <property name="text">
+          <string>Scroll to current track</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QCheckBox" name="playQueueConfirmClear">
+         <property name="text">
+          <string>Prompt before clearing</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QCheckBox" name="playQueueSearch">
+         <property name="text">
+          <string>Separate action (and shortcut) for play queue search</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <spacer name="macSpacerHack">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>2</width>
+           <height>1</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Background Image</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0" colspan="3">
+           <widget class="QRadioButton" name="playQueueBackground_none">
+            <property name="text">
+             <string>None</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QRadioButton" name="playQueueBackground_cover">
+            <property name="text">
+             <string>Current album cover</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QRadioButton" name="playQueueBackground_custom">
+            <property name="text">
+             <string>Custom image:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="PathRequester" name="playQueueBackgroundFile">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_4b">
+            <property name="text">
+             <string>Blur:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="2">
+           <layout class="QHBoxLayout" name="playQueueBackgroundBlurLayout">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QSlider" name="playQueueBackgroundBlur">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="maximum">
+               <number>20</number>
+              </property>
+              <property name="pageStep">
+               <number>1</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="tickPosition">
+               <enum>QSlider::TicksBelow</enum>
+              </property>
+              <property name="tickInterval">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="playQueueBackgroundBlurLabel">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>10px</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Opacity:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1" colspan="2">
+           <layout class="QHBoxLayout" name="playQueueBackgroundOpacityLayout">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QSlider" name="playQueueBackgroundOpacity">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="maximum">
+               <number>100</number>
+              </property>
+              <property name="pageStep">
+               <number>10</number>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="tickPosition">
+               <enum>QSlider::TicksBelow</enum>
+              </property>
+              <property name="tickInterval">
+               <number>10</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="playQueueBackgroundOpacityLabel">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>40%</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="toolbarTab">
+      <attribute name="title">
+       <string>Toolbar</string>
+      </attribute>
+      <layout class="QFormLayout" name="toolbarTabLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::ExpandingFieldsGrow</enum>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <widget class="QCheckBox" name="showStopButton">
+         <property name="text">
+          <string>Show stop button</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QCheckBox" name="showCoverWidget">
+         <property name="text">
+          <string>Show cover of current track</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QCheckBox" name="showRatingWidget">
+         <property name="text">
+          <string>Show track rating</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="showTechnicalInfo">
+         <property name="text">
+          <string>Show technical info</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>External</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QCheckBox" name="enableMpris">
+        <property name="text">
+         <string>Enable MPRIS D-BUS interface</string>
+        </property>
+       </widget>
+      </item>
+       <item>
+        <widget class="QCheckBox" name="systemTrayPopup">
+         <property name="text">
+          <string>Show popup messages when changing tracks</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="systemTrayCheckBox">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>Show icon in notification area</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="minimiseOnClose">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>Minimize to notification area when closed</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="startupState">
+         <property name="title">
+          <string>On Start-up</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QRadioButton" name="startupStateShow">
+            <property name="text">
+             <string>Show main window</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="startupStateHide">
+            <property name="text">
+             <string>Hide main window</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="startupStateRestore">
+            <property name="text">
+             <string>Restore previous state</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>2</width>
+           <height>2</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4z">
+      <attribute name="title">
+       <string>Tweaks</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QGroupBox" name="groupBox_2p">
+         <property name="title">
+          <string>Artist &amp;&amp; Album Sorting</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2p">
+          <item>
+           <widget class="QLabel" name="ignorePrefixesLabel">
+            <property name="text">
+             <string>Enter a (comma separated) list of prefixes to ignore when sorting artist and albums. e.g. if set to 'The' then 'The Beatles' would be sorted by 'Beatles'</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="LineEdit" name="ignorePrefixes">
+            <property name="placeholderText">
+             <string>Enter comma separated list of prefixes...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Composer Support</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="composerGenresLabel">
+            <property name="text">
+             <string>By default, Cantata uses the 'Album Artist' tag (or 'Artist' tag if a song has no 'Album Artist') to group songs and albums. For certain genres, e.g 'Classical', it may be preferable to use the 'Composer' tag (if set) to perform this grouping. Please enter a (comma separated) list of the genres with which you would like Cantata to use the 'Composer' tag.</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="LineEdit" name="composerGenres">
+            <property name="placeholderText">
+             <string>Enter comma separated list of genres...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Single Tracks</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QLabel" name="singleTracksFoldersLabel">
+            <property name="text">
+             <string>If you have a lot of artists in your collection that only contain a single track, then it can be cumbersome for each of these to have their own entry in the list of artists. As a work-around for this, if you place these tracks into a separate folder, and enter this folder name below, then Cantata will group these under an album named 'Single Tracks' with an album artist of 'Various Artists'. You may enter a comma separated list of folder names (without leading or trailing path separators) below.</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="LineEdit" name="singleTracksFolders">
+            <property name="placeholderText">
+             <string>Comma separated list of folders that contain single track files...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3xx">
+         <property name="title">
+          <string>Miscellaneous</string>
+         </property>
+         <layout class="QFormLayout" name="miscLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="cueSupportLabel">
+            <property name="text">
+             <string>CUE files:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="cueSupport"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="yearTagLabel">
+            <property name="text">
+             <string>Year tag:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="yearTag"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="tweaksLabel">
+         <property name="text">
+          <string>Changing 'Artist &amp; Album Sorting', 'Single Tracks', or 'CUE files' will require a DB refresh in order to take effect. Changing 'Composer Support' or 'Year tag' will require restarting Cantata.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2f">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4cvr">
+      <attribute name="title">
+       <string>Covers</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_7cvr">
+       <item>
+        <layout class="QFormLayout" name="formLayout_4cvr">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="0" column="0" colspan="2">
+          <widget class="QCheckBox" name="fetchCovers">
+           <property name="text">
+            <string>Fetch missing covers</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QCheckBox" name="storeCoversInMpdDir">
+           <property name="text">
+            <string>Save downloaded covers into music folder</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="BuddyLabel" name="coverFilenameLabel">
+           <property name="text">
+            <string>Filename:</string>
+           </property>
+           <property name="buddy">
+            <cstring>coverFilename</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="LineEdit" name="coverFilename">
+           <property name="toolTip">
+            <string>&lt;p&gt;Filename (without extension) to save downloaded covers as.&lt;br/&gt;If left blank 'cover' will be used.&lt;br/&gt;&lt;br/&gt;&lt;i&gt;%artist% will be replaced with album artist of the current song, and %album% will be replaced with the album name.&lt;/i&gt;&lt;/p&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="storeCoversInMpdDirLabel">
+         <property name="text">
+          <string>If you enable 'Save downloaded covers into music folder' you may need to clear the cache of any previous covers to force downloading of new covers. See 'Cache' settings page for further details.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="coverNameNoteLabel"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2cvr">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>General</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QFormLayout" name="formLayout_4">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="0" column="0" colspan="2">
+          <widget class="QCheckBox" name="showDeleteAction">
+           <property name="text">
+            <string>Show delete action in context menus</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QCheckBox" name="forceSingleClick">
+           <property name="text">
+            <string>Enforce single-click activation of items</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <widget class="QCheckBox" name="infoTooltips">
+           <property name="text">
+            <string>Show song information tooltips</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="BuddyLabel" name="langLabel">
+           <property name="text">
+            <string>Language:</string>
+           </property>
+           <property name="buddy">
+            <cstring>lang</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="lang"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="BuddyLabel" name="styleLabel">
+           <property name="text">
+            <string>Style:</string>
+           </property>
+           <property name="buddy">
+            <cstring>styleOption</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="styleOption"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="singleClickLabel">
+         <property name="text">
+          <string>Changing the 'Enforce single-click activation of items' setting will require a re-start of Cantata.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="langNoteLabel">
+         <property name="text">
+          <string>Changing the language setting will require a re-start of Cantata.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="NoteLabel" name="styleNoteLabel">
+         <property name="text">
+          <string>Changing the style setting will require a re-start of Cantata.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2c">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>16</width>
+           <height>16</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BuddyLabel</class>
+   <extends>QLabel</extends>
+   <header>support/buddylabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NoteLabel</class>
+   <extends>QLabel</extends>
+   <header>widgets/notelabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PathRequester</class>
+   <extends>QLineEdit</extends>
+   <header>support/pathrequester.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>support/lineedit.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>playQueueBackground_custom</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>playQueueBackgroundFile</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>262</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlaylistRules</class>
+ <widget class="QWidget" name="PlaylistRules">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="MessageWidget" name="messageWidget">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="LineEdit" name="nameText" native="true">
+     <property name="placeholderText" stdset="0">
+      <string>Name of playlist</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="controls" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0" rowspan="4" colspan="2">
+       <widget class="ListView" name="rulesList">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="addBtn">
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="editBtn">
+        <property name="text">
+         <string>Edit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="removeBtn">
+        <property name="text">
+         <string>Remove</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>53</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="0">
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="ratingRangeLabel_2">
+          <property name="text">
+           <string>Songs with ratings between:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="RatingWidget" name="ratingFrom" native="true"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="ratingToLabel">
+            <property name="text">
+             <string> - </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="RatingWidget" name="ratingTo" native="true"/>
+          </item>
+          <item>
+           <spacer name="rangeLabel">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>2</width>
+              <height>2</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Songs with duration between:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QSpinBox" name="minDuration">
+            <property name="suffix">
+             <string> seconds</string>
+            </property>
+            <property name="maximum">
+             <number>1800</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="rangeLabel2">
+            <property name="text">
+             <string> - </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="maxDuration">
+            <property name="suffix">
+             <string> seconds</string>
+            </property>
+            <property name="maximum">
+             <number>1800</number>
+            </property>
+            <property name="singleStep">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="durationSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>2</width>
+              <height>2</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="numberOfSongsLabel">
+          <property name="text">
+           <string>Number of songs in play queue:</string>
+          </property>
+         </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="numTracks">
+         <property name="singleStep">
+          <number>10</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="maxAgeLabel">
+         <property name="text">
+          <string>Files added in the last:</string>
+         </property>
+        </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QSpinBox" name="maxAge">
+        <property name="singleStep">
+         <number>10</number>
+        </property>
+        <property name="suffix">
+         <string> days</string>
+        </property>
+        <property name="specialValueText">
+         <string>No Limit</string>
+        </property>
+       </widget>
+      </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="orderLabel">
+         <property name="text">
+          <string>Order songs:</string>
+         </property>
+        </widget>
+      </item>
+      <item row="4" column="1">
+      <layout class="QHBoxLayout" name="orderLayout">
+       <item>
+        <widget class="QComboBox" name="order"/>
+       </item>
+       <item>
+        <widget class="QComboBox" name="orderAscending"/>
+       </item>
+      </layout>
+      </item>
+       </layout>
+      </item>
+      <item row="6" column="0">
+       <widget class="UrlLabel" name="aboutLabel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>About Rules</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1" colspan="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>220</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UrlLabel</class>
+   <extends>QLabel</extends>
+   <header>support/urllabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QWidget</extends>
+   <header>support/lineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>ListView</class>
+   <extends>QListView</extends>
+   <header>widgets/listview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MessageWidget</class>
+   <extends>QFrame</extends>
+   <header>support/messagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RatingWidget</class>
+   <extends>QWidget</extends>
+   <header>widgets/ratingwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

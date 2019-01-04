@@ -1,0 +1,2 @@
+C:\dev\Qt\Tools\mingw530_32\bin\ar.exe qc libqtsingleapplication.a  CMakeFiles/qtsingleapplication.dir/qtlocalpeer.cpp.obj CMakeFiles/qtsingleapplication.dir/qtlockedfile.cpp.obj CMakeFiles/qtsingleapplication.dir/qtsingleapplication.cpp.obj CMakeFiles/qtsingleapplication.dir/qtsinglecoreapplication.cpp.obj CMakeFiles/qtsingleapplication.dir/qtlockedfile_win.cpp.obj CMakeFiles/qtsingleapplication.dir/qtsingleapplication_autogen/mocs_compilation.cpp.obj
+C:\dev\Qt\Tools\mingw530_32\bin\ranlib.exe libqtsingleapplication.a

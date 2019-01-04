@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ServerSettings</class>
+ <widget class="QWidget" name="ServerSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>599</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string>Collection:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="combo"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="FlatToolButton" name="addButton"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="FlatToolButton" name="removeButton"/>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" colspan="2">
+        <layout class="QFormLayout" name="formLayout">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Name:</string>
+           </property>
+           <property name="buddy">
+            <cstring>name</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="LineEdit" name="name"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="BuddyLabel" name="hostLabel">
+           <property name="text">
+            <string>Host:</string>
+           </property>
+           <property name="buddy">
+            <cstring>host</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <layout class="QHBoxLayout" name="hostLayout">
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="LineEdit" name="host"/>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="port">
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>65535</number>
+             </property>
+             <property name="value">
+              <number>6600</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <widget class="BuddyLabel" name="passwordLabel">
+           <property name="text">
+            <string>Password:</string>
+           </property>
+           <property name="buddy">
+            <cstring>password</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="LineEdit" name="password">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="BuddyLabel" name="dirLabel">
+           <property name="text">
+            <string>Music folder:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dir</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="PathRequester" name="dir"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="BuddyLabel" name="streamUrlLabel">
+           <property name="text">
+            <string>HTTP stream URL:</string>
+           </property>
+           <property name="buddy">
+            <cstring>streamUrl</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="LineEdit" name="streamUrl"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="BuddyLabel" name="allowLocalStreamingLabel">
+           <property name="text">
+            <string>Local file playback:</string>
+           </property>
+           <property name="buddy">
+            <cstring>allowLocalStreaming</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QCheckBox" name="allowLocalStreaming">
+           <property name="toolTip">
+            <string>Use a simple in-built HTTP server to allow MPD to playback files dropped onto the playqueue.</string>
+           </property>
+           <property name="text">
+            <string>Via in-built HTTP server</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="BuddyLabel" name="autoUpdateLabel">
+           <property name="text">
+            <string>Auto update:</string>
+           </property>
+           <property name="buddy">
+            <cstring>autoUpdate</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QCheckBox" name="autoUpdate">
+           <property name="toolTip">
+		   <string>&lt;p&gt;Select this option if your MPD server detects modifications (e.g. newly added files) automatically. If so there is no need for Cantata to send update commands for certain actions.&lt;/p&gt;</string>
+           </property>
+           <property name="text">
+            <string>Server detects changes automatically</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="NoteLabel" name="musicFolderNoteLabel">
+         <property name="text">
+          <string>The 'Music folder' setting is used to lookup cover-art. It may be set to a HTTP URL if your MPD is on another machine, and covers are accessible via HTTP. If it is not set to a HTTP URL, and you also have write permissions to this folder (and it's sub-folders), then Cantata will save any downloaded covers into the respective album folder.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="NoteLabel" name="streamUrlNoteLabel">
+         <property name="text">
+          <string>'HTTP Stream URL' is only of use if you have MPD configured to output to a HTTP stream, and you wish Cantata to be able to play that stream.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="NoteLabel" name="allowLocalStreamingNoteLabel">
+         <property name="text">
+          <string>MPD usually only plays songs from within your collection. Newer MPD's (from v0.19 onwards) can also playback other files if you are connected to a local MPD server (e.g. address is '127.0.0.1' or 'localhost') For this to work, the MPD server needs read-access to wherever the files are located. If you are using an older MPD, a non-local MPD, or your local files are not accessible to other users, then you may elect to use the simple HTTP server that is supplied with Cantata. This server will only allow access to files in the playqueue, and only whilst Cantata is running.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>2</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>13</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" colspan="4">
+        <layout class="QFormLayout" name="formLayout_2">
+         <property name="fieldGrowthPolicy">
+          <enum>QFormLayout::ExpandingFieldsGrow</enum>
+         </property>
+         <item row="0" column="0">
+          <widget class="BuddyLabel" name="dirLabel_2">
+           <property name="text">
+            <string>Music folder:</string>
+           </property>
+           <property name="buddy">
+            <cstring>dir</cstring>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="PathRequester" name="basicDir"/>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0" colspan="4">
+        <widget class="NoteLabel" name="basicMusicFolderNoteLabel">
+         <property name="text">
+          <string>If you change the 'Music folder' setting, then you will need to manually update the music database. This can be performed by pressing the 'Refresh Database' button in the 'Artists' or 'Albums' views.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <spacer name="expandingSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>0</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>BuddyLabel</class>
+   <extends>QLabel</extends>
+   <header>support/buddylabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>NoteLabel</class>
+   <extends>QLabel</extends>
+   <header>widgets/notelabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>LineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>support/lineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>PathRequester</class>
+   <extends>QLineEdit</extends>
+   <header>support/pathrequester.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FlatToolButton</class>
+   <extends>QToolButton</extends>
+   <header>support/flattoolbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>combo</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

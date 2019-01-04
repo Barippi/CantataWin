@@ -1,0 +1,2 @@
+C:\dev\Qt\Tools\mingw530_32\bin\ar.exe qc libsupport-core.a  CMakeFiles/support-core.dir/utils.cpp.obj CMakeFiles/support-core.dir/thread.cpp.obj CMakeFiles/support-core.dir/support-core_autogen/mocs_compilation.cpp.obj
+C:\dev\Qt\Tools\mingw530_32\bin\ranlib.exe libsupport-core.a
