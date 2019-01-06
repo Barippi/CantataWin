@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><streams version="1.0">
+ <stream name="Di.fm-00s ClubHits" url="http://listen.di.fm/premium_high/00sclubhits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Ambient" url="http://listen.di.fm/premium_high/ambient.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-AtmosphericBreaks" url="http://listen.di.fm/premium_high/atmosphericbreaks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Bass &amp; Jackin'House" url="http://listen.di.fm/premium_high/bassnjackinhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Bassline" url="http://listen.di.fm/premium_high/bassline.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-BigBeat" url="http://listen.di.fm/premium_high/bigbeat.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Bigroom House" url="http://listen.di.fm/premium_high/bigroomhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Breaks" url="http://listen.di.fm/premium_high/breaks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Chill &amp; Tropical House" url="http://listen.di.fm/premium_high/chillntropicalhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Chillhop" url="http://listen.di.fm/premium_high/chillhop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Chillout" url="http://listen.di.fm/premium_high/chillout.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Chillout Dreams" url="http://listen.di.fm/premium_high/chilloutdreams.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Chillstep." url="http://listen.di.fm/premium_high/chillstep.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Classic Eurodance" url="http://listen.di.fm/premium_high/classiceurodance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Classic Eurodisco" url="http://listen.di.fm/premium_high/classiceurodisco.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Classic Vocal Trance" url="http://listen.di.fm/premium_high/classicvocaltrance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Classic Trance" url="http://listen.di.fm/premium_high/classictrance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Club Dubstep" url="http://listen.di.fm/premium_high/clubdubstep.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Club Sounds" url="http://listen.di.fm/premium_high/club.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Djmixes" url="http://listen.di.fm/premium_high/djmixes.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Darkdnb" url="http://listen.di.fm/premium_high/darkdnb.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Dark Psy Trance" url="http://listen.di.fm/premium_high/darkpsytrance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Deep House" url="http://listen.di.fm/premium_high/deephouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Deep nu Disco" url="http://listen.di.fm/premium_high/deepnudisco.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Deep Tech" url="http://listen.di.fm/premium_high/deeptech.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Detroit House &amp; Techno" url="http://listen.di.fm/premium_high/detroithousentechno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Disco House" url="http://listen.di.fm/premium_high/discohouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Downtempo Lounge" url="http://listen.di.fm/premium_high/downtempolounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Drum &amp; Bass" url="http://listen.di.fm/premium_high/drumandbass.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Drumstep" url="http://listen.di.fm/premium_high/drumstep.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Dub" url="http://listen.di.fm/premium_high/dub.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Dub Techno" url="http://listen.di.fm/premium_high/dubtechno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Dubstep" url="http://listen.di.fm/premium_high/dubstep.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-EBM" url="http://listen.di.fm/premium_high/ebm.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-EDM" url="http://listen.di.fm/premium_high/edm.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-EcLectronica" url="http://listen.di.fm/premium_high/eclectronica.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Electro" url="http://listen.di.fm/premium_high/electro.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Electro Swing" url="http://listen.di.fm/premium_high/electroswing.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Electronic Pioneers" url="http://listen.di.fm/premium_high/electronicpioneers.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Electronics" url="http://listen.di.fm/premium_high/electronics.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Electro Pop" url="http://listen.di.fm/premium_high/electropop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Epic Trance" url="http://listen.di.fm/premium_high/epictrance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Euro Dance" url="http://listen.di.fm/premium_high/eurodance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Funky House" url="http://listen.di.fm/premium_high/funkyhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Future Bass" url="http://listen.di.fm/premium_high/futurebass.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Future Garage" url="http://listen.di.fm/premium_high/futuregarage.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Future Synthpop" url="http://listen.di.fm/premium_high/futuresynthpop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Gabber" url="http://listen.di.fm/premium_high/gabber.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Glitch Hop" url="http://listen.di.fm/premium_high/glitchhop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Goa Psy Trance" url="http://listen.di.fm/premium_high/goapsy.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Hands Up" url="http://listen.di.fm/premium_high/handsup.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Hard Dance" url="http://listen.di.fm/premium_high/harddance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Hard Techno" url="http://listen.di.fm/premium_high/hardtechno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Hardcore" url="http://listen.di.fm/premium_high/hardcore.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Hard Style" url="http://listen.di.fm/premium_high/hardstyle.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-House" url="http://listen.di.fm/premium_high/house.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-IDM" url="http://listen.di.fm/premium_high/idm.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Indie Beats" url="http://listen.di.fm/premium_high/indiebeats.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Indie Dance" url="http://listen.di.fm/premium_high/indiedance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Jazz House" url="http://listen.di.fm/premium_high/jazzhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Jungle" url="http://listen.di.fm/premium_high/jungle.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Latin House" url="http://listen.di.fm/premium_high/latinhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Liquid dnb" url="http://listen.di.fm/premium_high/liquiddnb.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Liquid Dubstep" url="http://listen.di.fm/premium_high/liquiddubstep.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Liquid Trap" url="http://listen.di.fm/premium_high/liquidtrap.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Lofi Hiphop" url="http://listen.di.fm/premium_high/lofihiphop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Lounge" url="http://listen.di.fm/premium_high/lounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Mainstage" url="http://listen.di.fm/premium_high/mainstage.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Melodic Progressive" url="http://listen.di.fm/premium_high/melodicprogressive.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Minimal" url="http://listen.di.fm/premium_high/minimal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Nightcore" url="http://listen.di.fm/premium_high/nightcore.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Nu Disco" url="http://listen.di.fm/premium_high/nudisco.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Oldschool Acid" url="http://listen.di.fm/premium_high/oldschoolacid.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Oldschool House" url="http://listen.di.fm/premium_high/oldschoolhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Oldschool Rave" url="http://listen.di.fm/premium_high/oldschoolrave.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Oldschool Techno" url="http://listen.di.fm/premium_high/classictechno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Progressive" url="http://listen.di.fm/premium_high/progressive.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Progressive Psy" url="http://listen.di.fm/premium_high/progressivepsy.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Psy Chill" url="http://listen.di.fm/premium_high/psychill.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Psybient" url="http://listen.di.fm/premium_high/psybient.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Russian Club Hits" url="http://listen.di.fm/premium_high/russianclubhits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Soulful House" url="http://listen.di.fm/premium_high/soulfulhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Spacemusic" url="http://listen.di.fm/premium_high/spacemusic.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Synthwave" url="http://listen.di.fm/premium_high/synthwave.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Tech House" url="http://listen.di.fm/premium_high/techhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Techno" url="http://listen.di.fm/premium_high/techno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Trance" url="http://listen.di.fm/premium_high/trance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Trap" url="http://listen.di.fm/premium_high/trap.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Tribal House" url="http://listen.di.fm/premium_high/tribalhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-UMF Radio" url="http://listen.di.fm/premium_high/umfradio.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Underground Techno" url="http://listen.di.fm/premium_high/undergroundtechno.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Vocal Chillout" url="http://listen.di.fm/premium_high/vocalchillout.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Vocal House" url="http://listen.di.fm/premium_high/vocalhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Di.fm-Vocal Lounge" url="http://listen.di.fm/premium_high/vocallounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-00s Country" url="http://listen.radiotunes.com/premium_high/00scountry.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-00s Dance" url="http://listen.radiotunes.com/premium_high/00sdance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-00s Hits" url="http://listen.radiotunes.com/premium_high/hit00s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-00s R &amp; B" url="http://listen.radiotunes.com/premium_high/00srnb.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-00s Rock" url="http://listen.radiotunes.com/premium_high/00srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-60s Hits" url="http://listen.radiotunes.com/premium_high/hit60s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-60s Rock" url="http://listen.radiotunes.com/premium_high/60srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-70s Hits" url="http://listen.radiotunes.com/premium_high/hit70s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-70s Rock" url="http://listen.radiotunes.com/premium_high/70srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-80s Alt &amp; New Wave" url="http://listen.radiotunes.com/premium_high/80saltnnewwave.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-80s Dance" url="http://listen.radiotunes.com/premium_high/80sdance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-80s Hits" url="http://listen.radiotunes.com/premium_high/the80s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-80s Rock Hits" url="http://listen.radiotunes.com/premium_high/80srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-90s Country" url="http://listen.radiotunes.com/premium_high/90scountry.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-90s Dance" url="http://listen.radiotunes.com/premium_high/90sdance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-90s Hits" url="http://listen.radiotunes.com/premium_high/hit90s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-90s R &amp; B" url="http://listen.radiotunes.com/premium_high/90srnb.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-90s Rock" url="http://listen.radiotunes.com/premium_high/90srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Alternative Rock" url="http://listen.radiotunes.com/premium_high/altrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Ambient" url="http://listen.radiotunes.com/premium_high/ambient.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-American Songbook" url="http://listen.radiotunes.com/premium_high/americansongbook.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Baroque Period" url="http://listen.radiotunes.com/premium_high/baroque.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Bebop Jazz" url="http://listen.radiotunes.com/premium_high/bebop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Blues Rock" url="http://listen.radiotunes.com/premium_high/bluesrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Bolero" url="http://listen.radiotunes.com/premium_high/bolero.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Bossa Nova" url="http://listen.radiotunes.com/premium_high/bossanova.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Cafe de Paris" url="http://listen.radiotunes.com/premium_high/cafedeparis.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Chill and Tropical House" url="http://listen.radiotunes.com/premium_high/chillntropicalhouse.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Chillout" url="http://listen.radiotunes.com/premium_high/chillout.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classic Christmas" url="http://listen.radiotunes.com/premium_high/christmas.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classic Hip-Hop" url="http://listen.radiotunes.com/premium_high/classicrap.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classic Motown" url="http://listen.radiotunes.com/premium_high/classicmotown.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classic Rock" url="http://listen.radiotunes.com/premium_high/classicrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classical Guitar" url="http://listen.radiotunes.com/premium_high/guitar.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classical Period" url="http://listen.radiotunes.com/premium_high/classicalperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Classical Piano Trios" url="http://listen.radiotunes.com/premium_high/classicalpianotrios.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Club Bollywood" url="http://listen.radiotunes.com/premium_high/clubbollywood.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Contemporary Chistian" url="http://listen.radiotunes.com/premium_high/christian.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Country" url="http://listen.radiotunes.com/premium_high/country.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Cuban Lounge" url="http://listen.radiotunes.com/premium_high/cubanlounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-DaTempo Lounge" url="http://listen.radiotunes.com/premium_high/datempolounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Dance Hits" url="http://listen.radiotunes.com/premium_high/dancehits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Dave Koz &amp; Friends" url="http://listen.radiotunes.com/premium_high/davekoz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Disco Party" url="http://listen.radiotunes.com/premium_high/discoparty.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Downtempo Lounge" url="http://listen.radiotunes.com/premium_high/downtempolounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Dreamscapes" url="http://listen.radiotunes.com/premium_high/dreamscapes.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-EDM Fest" url="http://listen.radiotunes.com/premium_high/edmfest.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-EuroDance" url="http://listen.radiotunes.com/premium_high/eurodance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Flamenco" url="http://listen.radiotunes.com/premium_high/flamenco.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Hard Rock" url="http://listen.radiotunes.com/premium_high/hardrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Holiday Smooth Jazz" url="http://listen.radiotunes.com/premium_high/holidaysmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Indie Dance" url="http://listen.radiotunes.com/premium_high/indiedance.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Indie Rock" url="http://listen.radiotunes.com/premium_high/indierock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Jazz Classics" url="http://listen.radiotunes.com/premium_high/jazzclassics.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Jpop" url="http://listen.radiotunes.com/premium_high/jpop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Latin Pop Hits" url="http://listen.radiotunes.com/premium_high/latinpophits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Latin Rock" url="http://listen.radiotunes.com/premium_high/latinrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Lounge" url="http://listen.radiotunes.com/premium_high/lounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Love Music" url="http://listen.radiotunes.com/premium_high/lovemusic.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Meditation" url="http://listen.radiotunes.com/premium_high/meditation.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Mellow Jazz" url="http://listen.radiotunes.com/premium_high/mellowjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Mellow Smooth Jazz" url="http://listen.radiotunes.com/premium_high/mellowsmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Metal" url="http://listen.radiotunes.com/premium_high/metal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Modern Blues" url="http://listen.radiotunes.com/premium_high/modernblues.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Modern Rock" url="http://listen.radiotunes.com/premium_high/modernrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Mostly Classical" url="http://listen.radiotunes.com/premium_high/classical.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Movie Soundtracks" url="http://listen.radiotunes.com/premium_high/soundtracks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Mozart" url="http://listen.radiotunes.com/premium_high/mozart.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Nature" url="http://listen.radiotunes.com/premium_high/nature.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-New Age" url="http://listen.radiotunes.com/premium_high/newage.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Nortena" url="http://listen.radiotunes.com/premium_high/nortena.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Oldschool Funk &amp; Soul" url="http://listen.radiotunes.com/premium_high/oldschoolfunknsoul.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Oldies" url="http://listen.radiotunes.com/premium_high/oldies.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Piano Jazz" url="http://listen.radiotunes.com/premium_high/pianojazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Pop Christmas" url="http://listen.radiotunes.com/premium_high/popchristmas.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Reggaeton" url="http://listen.radiotunes.com/premium_high/reggaeton.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Relaxing Ambient Piano" url="http://listen.radiotunes.com/premium_high/relaxingambientpiano.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Romantic Period" url="http://listen.radiotunes.com/premium_high/romantic.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Romantica" url="http://listen.radiotunes.com/premium_high/romantica.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Romantica Latina" url="http://listen.radiotunes.com/premium_high/romanticalatina.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Roots Reggae" url="http://listen.radiotunes.com/premium_high/rootsreggae.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Salsa" url="http://listen.radiotunes.com/premium_high/salsa.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Sleep Relaxation" url="http://listen.radiotunes.com/premium_high/sleeprelaxation.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Slow R &amp; B" url="http://listen.radiotunes.com/premium_high/slowjams.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Smooth Beats" url="http://listen.radiotunes.com/premium_high/smoothbeats.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Smooth Bossa Nova" url="http://listen.radiotunes.com/premium_high/smoothbossanova.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Smooth Jazz" url="http://listen.radiotunes.com/premium_high/smoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Smooth Jazz 247" url="http://listen.radiotunes.com/premium_high/smoothjazz247.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Smooth Lounge" url="http://listen.radiotunes.com/premium_high/smoothlounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Soft Rock" url="http://listen.radiotunes.com/premium_high/softrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Solo Piano" url="http://listen.radiotunes.com/premium_high/solopiano.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Tango" url="http://listen.radiotunes.com/premium_high/tango.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Top Hits" url="http://listen.radiotunes.com/premium_high/tophits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Uptempo Smooth Jazz" url="http://listen.radiotunes.com/premium_high/uptemposmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Urban Hits" url="http://listen.radiotunes.com/premium_high/urbanjamz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Urban Pop Hits" url="http://listen.radiotunes.com/premium_high/urbanpophits.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Vocal Chillout" url="http://listen.radiotunes.com/premium_high/vocalchillout.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Vocal Lounge" url="http://listen.radiotunes.com/premium_high/vocallounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Vocal New Age" url="http://listen.radiotunes.com/premium_high/vocalnewage.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-Vocal Smooth Jazz" url="http://listen.radiotunes.com/premium_high/vocalsmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Radiotunes-World" url="http://listen.radiotunes.com/premium_high/world.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-20th Century" url="http://listen.classicalradio.com/premium_high/20thcentury.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-21st Century" url="http://listen.classicalradio.com/premium_high/21stcentury.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Adagios" url="http://listen.classicalradio.com/premium_high/adagios.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Bach" url="http://listen.classicalradio.com/premium_high/bach.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Ballets" url="http://listen.classicalradio.com/premium_high/ballets.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Baroque Period" url="http://listen.classicalradio.com/premium_high/baroqueperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Beethoven" url="http://listen.classicalradio.com/premium_high/beethoven.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Brahms" url="http://listen.classicalradio.com/premium_high/brahms.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Cello Works" url="http://listen.classicalradio.com/premium_high/celloworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Chamber Works" url="http://listen.classicalradio.com/premium_high/chamberworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Chopin" url="http://listen.classicalradio.com/premium_high/chopin.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Choral Works" url="http://listen.classicalradio.com/premium_high/choralworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Classical Christmas" url="http://listen.classicalradio.com/premium_high/classicalchristmas.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Classical Guitar Works" url="http://listen.classicalradio.com/premium_high/classicalguitarworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Classical Period" url="http://listen.classicalradio.com/premium_high/classicalperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Classical Piano Trios" url="http://listen.classicalradio.com/premium_high/classicalpianotrios.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Classical Relaxation" url="http://listen.classicalradio.com/premium_high/classicalrelaxation.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Concertos" url="http://listen.classicalradio.com/premium_high/concertos.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Contemporary Period" url="http://listen.classicalradio.com/premium_high/contemporaryperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Easy Classical" url="http://listen.classicalradio.com/premium_high/easyclassical.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Flute Works" url="http://listen.classicalradio.com/premium_high/fluteworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Gregorian Chant" url="http://listen.classicalradio.com/premium_high/gregorianchant.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Grieg" url="http://listen.classicalradio.com/premium_high/grieg.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Handel" url="http://listen.classicalradio.com/premium_high/handel.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Harpsichord Works" url="http://listen.classicalradio.com/premium_high/harpsichordworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Haydn" url="http://listen.classicalradio.com/premium_high/haydn.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Medieval Period" url="http://listen.classicalradio.com/premium_high/medievalperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Mozart" url="http://listen.classicalradio.com/premium_high/mozart.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Opera Highlights" url="http://listen.classicalradio.com/premium_high/operahighlights.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Orchestral Works" url="http://listen.classicalradio.com/premium_high/orchestralworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Organ Works" url="http://listen.classicalradio.com/premium_high/organworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Overtures" url="http://listen.classicalradio.com/premium_high/overtures.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Piano Works" url="http://listen.classicalradio.com/premium_high/pianoworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Renaissance Period" url="http://listen.classicalradio.com/premium_high/renaissanceperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Romantic Period" url="http://listen.classicalradio.com/premium_high/romanticperiod.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Sacred Works" url="http://listen.classicalradio.com/premium_high/sacredworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Schubert" url="http://listen.classicalradio.com/premium_high/schubert.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Shostakovich" url="http://listen.classicalradio.com/premium_high/shostakovich.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Solo Instruments" url="http://listen.classicalradio.com/premium_high/soloinstruments.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Solo Piano" url="http://listen.classicalradio.com/premium_high/solopiano.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Sonatas" url="http://listen.classicalradio.com/premium_high/sonatas.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Songs &amp; Lieder" url="http://listen.classicalradio.com/premium_high/songsnlieders.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-String Works" url="http://listen.classicalradio.com/premium_high/stringworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Symphonies" url="http://listen.classicalradio.com/premium_high/symphonies.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Tchaikovsky" url="http://listen.classicalradio.com/premium_high/tchaikovsky.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Trumpet Works" url="http://listen.classicalradio.com/premium_high/trumpetworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Violin Works" url="http://listen.classicalradio.com/premium_high/violinworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Vivaldi" url="http://listen.classicalradio.com/premium_high/vivaldi.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Waltzes, Polkas &amp; Marches" url="http://listen.classicalradio.com/premium_high/waltzespolkasnmarches.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Classical Radio-Wind Works" url="http://listen.classicalradio.com/premium_high/windworks.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Bass Jazz" url="http://listen.jazzradio.com/premium_high/bassjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Bebop" url="http://listen.jazzradio.com/premium_high/bebop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Blues" url="http://listen.jazzradio.com/premium_high/blues.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Blues Rock" url="http://listen.jazzradio.com/premium_high/bluesrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Bossa Nova" url="http://listen.jazzradio.com/premium_high/bossanova.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Classic Jazz" url="http://listen.jazzradio.com/premium_high/classicjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Contemprary Vocals" url="http://listen.jazzradio.com/premium_high/vocaljazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Cool Jazz" url="http://listen.jazzradio.com/premium_high/cooljazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Current Jazz" url="http://listen.jazzradio.com/premium_high/currentjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Dave Koz &amp; Friends" url="http://listen.jazzradio.com/premium_high/davekoz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Flamenco Jazz" url="http://listen.jazzradio.com/premium_high/flamencojazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Fusion Lounge" url="http://listen.jazzradio.com/premium_high/fusionlounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Guitar Jazz" url="http://listen.jazzradio.com/premium_high/guitarjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Gypsy Jazz" url="http://listen.jazzradio.com/premium_high/gypsyjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Hard Bop" url="http://listen.jazzradio.com/premium_high/hardbop.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Holiday Jazz" url="http://listen.jazzradio.com/premium_high/holidayjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Holiday Smooth Jazz" url="http://listen.jazzradio.com/premium_high/holidaysmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Jazz Ballads" url="http://listen.jazzradio.com/premium_high/jazzballads.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Latin Jazz" url="http://listen.jazzradio.com/premium_high/latinjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Mellow Jazz" url="http://listen.jazzradio.com/premium_high/mellowjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Mellow Piano Jazz" url="http://listen.jazzradio.com/premium_high/mellowpianojazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Mellow Smooth Jazz" url="http://listen.jazzradio.com/premium_high/mellowsmoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Modern Bigband" url="http://listen.jazzradio.com/premium_high/modernbigband.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Paris Cafe" url="http://listen.jazzradio.com/premium_high/pariscafe.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Piano Jazz" url="http://listen.jazzradio.com/premium_high/pianojazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Piano Trios" url="http://listen.jazzradio.com/premium_high/pianotrios.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Saxophone Jazz" url="http://listen.jazzradio.com/premium_high/saxophonejazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Sinatra Style" url="http://listen.jazzradio.com/premium_high/sinatrastyle.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Bossa Nova" url="http://listen.jazzradio.com/premium_high/smoothbossanova.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Jazz" url="http://listen.jazzradio.com/premium_high/smoothjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Jazz 247" url="http://listen.jazzradio.com/premium_high/smoothjazz247.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Lounge" url="http://listen.jazzradio.com/premium_high/smoothlounge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Uptempo" url="http://listen.jazzradio.com/premium_high/smoothuptempo.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Smooth Vocals" url="http://listen.jazzradio.com/premium_high/smoothvocals.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Straight Aahead" url="http://listen.jazzradio.com/premium_high/straightahead.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Timeless Classics" url="http://listen.jazzradio.com/premium_high/timelessclassics.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Trumpet Jazz" url="http://listen.jazzradio.com/premium_high/trumpetjazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Vibraphone Jazz" url="http://listen.jazzradio.com/premium_high/vibraphonejazz.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Jazz Radio-Vocal Legends" url="http://listen.jazzradio.com/premium_high/vocallegends.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-00s Rock" url="http://listen.rockradio.com/premium_high/00srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-60s Rock" url="http://listen.rockradio.com/premium_high/60srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-70s Rock" url="http://listen.rockradio.com/premium_high/70srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-80s Alternative" url="http://listen.rockradio.com/premium_high/alternative80s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-80s Rock" url="http://listen.rockradio.com/premium_high/80srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-90s Alternative" url="http://listen.rockradio.com/premium_high/alternative90s.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-90s Rock" url="http://listen.rockradio.com/premium_high/90srock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Alternative Rock" url="http://listen.rockradio.com/premium_high/alternativerock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Black Metal" url="http://listen.rockradio.com/premium_high/blackmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Blues Rock" url="http://listen.rockradio.com/premium_high/bluesrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Classic Folk Rock" url="http://listen.rockradio.com/premium_high/classicfolkrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Classic Hard Rock" url="http://listen.rockradio.com/premium_high/classichardrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Classic Metal" url="http://listen.rockradio.com/premium_high/classicmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Classic Rock" url="http://listen.rockradio.com/premium_high/classicrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Death Metal" url="http://listen.rockradio.com/premium_high/deathmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Grunge" url="http://listen.rockradio.com/premium_high/grunge.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Hair Bands" url="http://listen.rockradio.com/premium_high/hairbands.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Hard Rock" url="http://listen.rockradio.com/premium_high/hardrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Heavy Metal" url="http://listen.rockradio.com/premium_high/heavymetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Indie Rock" url="http://listen.rockradio.com/premium_high/indierock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Industrial" url="http://listen.rockradio.com/premium_high/industrial.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Latin Rock" url="http://listen.rockradio.com/premium_high/latinrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Melodic Death Metal" url="http://listen.rockradio.com/premium_high/melodicdeathmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Metal" url="http://listen.rockradio.com/premium_high/metal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Metalcore" url="http://listen.rockradio.com/premium_high/metalcore.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Modern Folk Rock" url="http://listen.rockradio.com/premium_high/modernfolkrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Modern Rock" url="http://listen.rockradio.com/premium_high/modernrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Nu Metal" url="http://listen.rockradio.com/premium_high/numetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Pop Rock" url="http://listen.rockradio.com/premium_high/poprock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Power Metal" url="http://listen.rockradio.com/premium_high/powermetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Progressive Rock" url="http://listen.rockradio.com/premium_high/progressiverock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Punk Rock" url="http://listen.rockradio.com/premium_high/punkrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Rock Ballads" url="http://listen.rockradio.com/premium_high/rockballads.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Screamo Emo" url="http://listen.rockradio.com/premium_high/screamoemo.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Soft Rock" url="http://listen.rockradio.com/premium_high/softrock.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Symphonic Metal" url="http://listen.rockradio.com/premium_high/symphonicmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Thrash Metal" url="http://listen.rockradio.com/premium_high/thrashmetal.pls?listen_key=YOURLISTENKEY"/>
+ <stream name="Rock Radio-Yacht Rock" url="http://listen.rockradio.com/premium_high/yachtrock.pls?listen_key=YOURLISTENKEY"/>
+</streams>
